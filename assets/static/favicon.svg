@@ -1,7 +1,99 @@
-<svg width="250mm" height="250mm" version="1.1" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(209.4 20.411)">
-  <rect x="-209.4" y="-20.411" width="250" height="250" style="fill:#120044"/>
-  <circle cx="-84.546" cy="104.59" r="90.134" style="fill:#f3eeff;stroke-width:.80563"/>
-  <circle cx="-111.65" cy="86.015" r="64.251" style="fill:#120044;stroke-width:.80563"/>
+<svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4243">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient4215" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(2.9916 0 0 2.9916 859.8 -1014.7)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4217" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 311.25 -402.13)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4219" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.106 0 0 1.106 146.34 -249.69)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4221" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.5774 0 0 1.5774 229.74 -262.57)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4223" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.5774 0 0 1.5774 357.62 -235.89)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4225" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.6953 0 0 1.6953 255.22 -479.51)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4227" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 182.8 -585)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4231" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 196.41 -544.83)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4233" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(2.9916 0 0 2.9916 748.27 -1151.1)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4235" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 300.52 -251.46)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4237" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 340.06 -241.36)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4243"/>
+  <radialGradient id="radialGradient4293" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 209.03 -242.75)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-5" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 194.22 -631.63)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-4" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 246.75 -494.9)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-9" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 275.94 -414.75)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-7" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 354.43 -269.09)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-1" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 332.75 -201.77)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-3" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 297.27 -198.74)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient4293-49" cx="-387.9" cy="575.57" r="12.122" gradientTransform="matrix(1.4596 0 0 1.4596 180.57 -414.02)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#a96fea" offset="0"/>
+   <stop style="stop-color:#5c368e" offset=".41363"/>
+   <stop style="stop-color:#2e1761;stop-opacity:0" offset="1"/>
+  </radialGradient>
+  <filter id="filter1034" x="-.017789" y="-.0090536" width="1.0356" height="1.0181" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="5.3024727"/>
+  </filter>
+  <filter id="filter1042" x="-.040983" y="-.020131" width="1.082" height="1.0403" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="11.532562"/>
+  </filter>
+  <filter id="filter1050" x="-.042241" y="-.019841" width="1.0845" height="1.0397" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="10.244958"/>
+  </filter>
+  <filter id="filter1066" x="-.12912" y="-.052848" width="1.2582" height="1.1057" style="color-interpolation-filters:sRGB">
+   <feGaussianBlur stdDeviation="24.344678"/>
+  </filter>
+ </defs>
+ <g transform="matrix(.34131 0 0 .34131 1488.3 165.26)">
+  <path d="m-3317.1 723.79c-143.83 387.49-617.69 252.4-688.57-85.714-33.19-158.33 160.1-351.67 96.229-554.12-45.001-142.64 318.08-559.76 309.49-528.73-50.658 182.86-28.196 414.16 69.789 540.46 213.38 275.03 275.16 460.82 213.07 628.12z" style="fill:#73107d;filter:url(#filter1034);stroke-linecap:round;stroke-linejoin:round;stroke-width:20"/>
+  <path d="m-3337.1 700.93c-143.83 387.49-577.69 275.26-648.57-62.857-33.19-158.33 160.1-354.53 96.229-556.98-45.001-142.64 280.94-539.76 272.34-508.73-50.658 182.86-31.053 414.16 66.932 540.46 213.38 275.03 275.16 420.82 213.07 588.12z" style="fill:#d73fe6;filter:url(#filter1042);stroke-linecap:round;stroke-linejoin:round;stroke-width:20"/>
+  <path d="m-3387.6 693.63c-148.29 323.67-485.88 236.77-549.7-68.769-31.676-151.65 159.04-325.25 97.872-519.13-43.098-136.61 191.91-474.07 183.68-444.35-48.515 175.12-18.311 359.5 75.529 480.45 204.35 263.39 263.8 396.44 192.63 551.81z" style="fill:#30006d;filter:url(#filter1050);stroke-linecap:round;stroke-linejoin:round;stroke-width:20"/>
+  <path d="m-3431.7 686.65c-108.7 227.68-368.26 213.37-458.32-58.949-44.094-133.33 145.47-333.8 90.028-509.55-39.066-123.83 119.67-432.58 112.21-405.64-43.976 158.74-38.026 297.29 47.034 406.93 185.24 238.75 275.79 427.42 209.05 567.21z" style="filter:url(#filter1066);stroke-linecap:round;stroke-linejoin:round;stroke-width:20"/>
+  <g transform="matrix(1.8523 0 0 1.8523 -3056.2 -503.14)">
+   <circle cx="-300.65" cy="707.17" r="36.264" style="fill:url(#radialGradient4215);stroke-linecap:round;stroke-linejoin:round;stroke-width:59.832"/>
+   <circle cx="-254.91" cy="437.95" r="17.693" style="fill:url(#radialGradient4217);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-282.67" cy="386.89" r="13.407" style="fill:url(#radialGradient4219);stroke-linecap:round;stroke-linejoin:round;stroke-width:22.12"/>
+   <circle cx="-382.13" cy="645.34" r="19.121" style="fill:url(#radialGradient4221);stroke-linecap:round;stroke-linejoin:round;stroke-width:31.548"/>
+   <circle cx="-254.25" cy="672.02" r="19.121" style="fill:url(#radialGradient4223);stroke-linecap:round;stroke-linejoin:round;stroke-width:31.548"/>
+   <circle cx="-402.37" cy="496.24" r="20.55" style="fill:url(#radialGradient4225);stroke-linecap:round;stroke-linejoin:round;stroke-width:33.905"/>
+   <circle cx="-383.36" cy="255.08" r="17.693" style="fill:url(#radialGradient4227);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-369.75" cy="295.24" r="17.693" style="fill:url(#radialGradient4231);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-412.18" cy="570.79" r="36.264" style="fill:url(#radialGradient4233);stroke-linecap:round;stroke-linejoin:round;stroke-width:59.832"/>
+   <circle cx="-265.64" cy="588.62" r="17.693" style="fill:url(#radialGradient4235);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-226.1" cy="598.72" r="17.693" style="fill:url(#radialGradient4237);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-357.13" cy="597.33" r="17.693" style="fill:url(#radialGradient4293);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-371.94" cy="208.45" r="17.693" style="fill:url(#radialGradient4293-5);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-319.41" cy="345.18" r="17.693" style="fill:url(#radialGradient4293-4);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-290.22" cy="425.33" r="17.693" style="fill:url(#radialGradient4293-9);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-211.73" cy="570.99" r="17.693" style="fill:url(#radialGradient4293-7);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-233.41" cy="638.31" r="17.693" style="fill:url(#radialGradient4293-1);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-268.89" cy="641.34" r="17.693" style="fill:url(#radialGradient4293-3);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+   <circle cx="-385.59" cy="426.06" r="17.693" style="fill:url(#radialGradient4293-49);stroke-linecap:round;stroke-linejoin:round;stroke-width:29.191"/>
+  </g>
  </g>
 </svg>

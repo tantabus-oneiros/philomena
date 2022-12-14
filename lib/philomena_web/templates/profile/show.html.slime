@@ -58,48 +58,6 @@
 
 .column-layout
   .column-layout__left
-    .block
-      .block__header
-        span.block__header__title Commissions
-      = render PhilomenaWeb.ProfileView, "_commission.html", user: @user, commission_information: @commission_information, conn: @conn
-
-    .block
-      = if current?(@user, @conn.assigns.current_user) or manages_links?(@conn, @user) do
-        a.block__header--single-item href=Routes.profile_artist_link_path(@conn, :new, @user) Artist Links
-      - else
-        .block__header
-          span.block__header__title Artist Links
-      = for link <- @user.verified_links, should_see_link?(@conn, @user, link) do
-        - watchers = if link.tag, do: @watcher_counts[link.tag.id] || 0, else: 0
-
-        .block__content.alternating-color.break-word class=link_block_class(link)
-          .center
-            = if link.tag do
-              .tag_list = render PhilomenaWeb.TagView, "_tag.html", tag: link.tag, conn: @conn
-            = link(link.uri, to: link.uri)
-
-            = if current?(@user, @conn.assigns.current_user) or manages_links?(@conn, @user) do
-              br
-              ' Watched by
-              => watchers
-              = pluralize("user", "users", watchers)
-
-            = if manages_links?(@conn, @user) do
-              br
-              => if link.public do
-                ' Public
-              - else
-                ' Hidden
-              ' &bull;
-              a href=Routes.profile_artist_link_path(@conn, :edit, @user, link)
-                ' Edit
-              ' &bull;
-              a href=Routes.admin_artist_link_reject_path(@conn, :create, link) data-method="post"
-                ' Reject
-            - else
-              => unless link.public do
-                br
-                ' Hidden
 
     .block
       = if manages_awards?(@conn) and not hide_staff_tools?(@conn) do

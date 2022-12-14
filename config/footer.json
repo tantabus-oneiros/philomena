@@ -23,18 +23,6 @@
     {
       "title": "About Uploading",
       "url": "/pages/uploading"
-    },
-    {
-      "title": "Spoiler Guidelines",
-      "url": "/pages/spoilers"
-    },
-    {
-      "title": "Takedown Requests",
-      "url": "/pages/takedowns"
-    },
-    {
-      "title": "Do-Not-Post List",
-      "url": "/dnp"
     }
   ],
   "Help & Information": [
@@ -50,20 +38,8 @@
       "bold": true
     },
     {
-      "title": "API Docs",
-      "url": "/pages/api"
-    },
-    {
       "title": "Keyboard Shortcuts",
       "url": "/pages/shortcuts"
-    },
-    {
-      "title": "Advertising",
-      "url": "/pages/advertising"
-    },
-    {
-      "title": "Onion Service",
-      "url": "/pages/onion"
     }
   ],
   "Community": [
@@ -84,15 +60,6 @@
     {
       "title": "Statistics",
       "url": "/pages/stats"
-    },
-    {
-      "title": "About",
-      "url": "/pages/about"
-    },
-    {
-      "title": "Twitter",
-      "url": "https://twitter.com/dril",
-      "target": "_blank"
     }
   ]
 }
