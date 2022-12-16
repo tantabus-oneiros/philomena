@@ -377,7 +377,7 @@ defimpl Canada.Can, for: [Atom, Philomena.Users.User] do
       do: true
 
   # View non-deleted images
-  def can?(_user, action, Image)
+  def can?(%User{id: _id}, action, Image)
       when action in [:new, :create, :index],
       do: true
 
@@ -388,7 +388,7 @@ defimpl Canada.Can, for: [Atom, Philomena.Users.User] do
   def can?(_user, :show, %Tag{}), do: true
 
   # Comment on images where that is allowed
-  def can?(_user, :create_comment, %Image{hidden_from_users: false, commenting_allowed: true}),
+  def can?(%User{id: _id}, :create_comment, %Image{hidden_from_users: false, commenting_allowed: true}),
     do: true
 
   # Edit comments on images
@@ -397,7 +397,7 @@ defimpl Canada.Can, for: [Atom, Philomena.Users.User] do
       do: true
 
   # Edit metadata on images where that is allowed
-  def can?(_user, :edit_metadata, %Image{hidden_from_users: false, tag_editing_allowed: true}),
+    def can?(%User{id: _id}, :edit_metadata, %Image{hidden_from_users: false, tag_editing_allowed: true}),
     do: true
 
   def can?(%User{id: id}, :edit_description, %Image{
@@ -420,7 +420,7 @@ defimpl Canada.Can, for: [Atom, Philomena.Users.User] do
   def can?(_user, :show, %Post{hidden_from_users: false}), do: true
 
   # Create and edit posts
-  def can?(_user, :create_post, %Topic{locked_at: nil, hidden_from_users: false}), do: true
+    def can?(%User{id: _id}, :create_post, %Topic{locked_at: nil, hidden_from_users: false}), do: true
 
   def can?(%User{id: id}, action, %Post{hidden_from_users: false, user_id: id})
       when action in [:edit, :update],

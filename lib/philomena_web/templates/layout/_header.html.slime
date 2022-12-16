@@ -8,8 +8,9 @@ header.header
         i.fa.fw.favicon-home
         span.fa__text.hide-limited-desktop.hide-mobile
           ' Tantabus
-      a.header__link.hide-mobile href="/images/new" title="Upload"
-        i.fa.fa-upload
+      = if @conn.assigns.current_user do
+        a.header__link.hide-mobile href="/images/new" title="Upload"
+          i.fa.fa-upload
 
     = form_for @conn, Routes.search_path(@conn, :index), [method: "get", class: "header__search flex flex--no-wrap flex--centered", enforce_utf8: false], fn f ->
       input.input.header__input.header__input--search#q name="q" title="For terms all required, separate with ',' or 'AND'; also supports 'OR' for optional terms and '-' or 'NOT' for negation. Search with a blank query for more options or click the ? for syntax help." value=@conn.params["q"] placeholder="Search" autocapitalize="none"

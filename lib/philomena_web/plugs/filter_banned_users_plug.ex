@@ -21,6 +21,7 @@ defmodule PhilomenaWeb.FilterBannedUsersPlug do
 
     conn.assigns.current_ban
     |> maybe_halt(conn, redirect_url)
+    |> maybe_halt_anon(redirect_url)
     |> maybe_halt_no_fingerprint()
   end
 
@@ -47,4 +48,13 @@ defmodule PhilomenaWeb.FilterBannedUsersPlug do
         conn
     end
   end
+  
+  defp maybe_halt_anon(%{assigns: %{current_user: nil}} = conn, redirect_url) do
+    conn
+    |> Controller.put_flash(:error, "You must be registered to do this.")
+    |> Controller.redirect(external: redirect_url)
+    |> Conn.halt()
+  end
+
+  defp maybe_halt_anon(conn, _redirect_url), do: conn
 end

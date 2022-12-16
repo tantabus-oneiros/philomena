@@ -75,7 +75,8 @@ defmodule Philomena.Images do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_image(attribution, attrs \\ %{}) do
+  def create_image(%{user: nil}, _attrs), do: {:error, :image, nil, nil}
+  def create_image(attribution, attrs \\ %{})  do
     tags = Tags.get_or_create_tags(attrs["tag_input"])
 
     image =
